@@ -35,7 +35,7 @@ defmodule Issues.CLI do
     { user, project, @default_count}
   end
 
-  def args_to_internal_representation(_) do
+  def args_to_internal_representation(_) do # bad arg or --help
     :help
   end
 end
